@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="HOST_URL">https://api.appglu.com/v1/queries/</string>
+    <string name="ROUTES_BY_STOP">findRoutesByStopName/run</string>
+    <string name="DEPARTURE_BY_ID">findDeparturesByRouteId/run</string>
+    <string name="STOP_BY_ID">findStopsByRouteId/run</string>
+    <string name="USER_PASSWORD">V0tENE43WU1BMXVpTThWOkR0ZFR0ek1MUWxBMGhrMkMxWWk1cEx5VklsQVE2OA==</string>
+</resources>
+

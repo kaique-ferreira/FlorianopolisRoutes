@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aruana.florianopolisroutes.RoutesDetailActivity">
+
+
+    <LinearLayout
+        android:id="@+id/detailHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="7"
+            android:id="@+id/routeName"
+            android:textSize="@dimen/font_header_big"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/buttonBackDetail"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/back"/>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/detailHeader"
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pager_tab_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@android:color/darker_gray"
+            android:textColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
