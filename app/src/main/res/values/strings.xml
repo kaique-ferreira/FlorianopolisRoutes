@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FlorianopolisRoutes</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hint_stop_name">Parada</string>
+    <string name="btn_ok">Buscar</string>
+    <string name="title_activity_detail_route">DetailRouteActivity</string>
+    <string name="title_activity_routes_detail">RoutesDetailActivity</string>
+
+    <string name="stops">Paradas</string>
+    <string name="departures_weekday">Dias de Semana</string>
+    <string name="departures_saturday">Sábados</string>
+    <string name="departures_sunday">Domingos</string>
+    <string name="back">Voltar</string>
+    <string name="btn_map">Mapa</string>
+    <string name="buttonMapSearchAddress">Ok</string>
+    <string name="invalid_address">Endereço selecionado invalido</string>
+    <string name="malformed_address">Endereço mal formado</string>
+</resources>
